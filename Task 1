@@ -347,9 +347,9 @@ def main():
         ox.append(25.0)
         oy.append(i)
 
-    for i in range(30, 40):
-        ox.append(i)
-        oy.append(-2.5 * i + 130)
+    for i in range(300, 400):
+        ox.append(0.1*i)
+        oy.append(-0.25 * i + 130)
     
     # for i in range(40, 45): # draw the button border 
     #     ox.append(i)
