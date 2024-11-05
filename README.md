@@ -1,14 +1,21 @@
 # PolyU AAE1001 GitHub Project Group12
 
 # Members 
-**Leader:**Law Yat Hei Daniel
-**Member 1:**Lau Pak Kuai Enrico
-**Member 2:**Zhou Jian Hong
-**Member 3:**Zhang Ding Zhe
-**Member 4:**Sun Chu Rui
-**Member 5:**Ng Tsz Hin
-**Member 6:**Sun Xiao
-**Member 7:**Shek Pui Ka Hannah
+Leader: Law Yat Hei Daniel
+
+Member 1: Lau Pak Kuai Enrico
+
+Member 2: Zhou Jian Hong
+
+Member 3: Zhang Ding Zhe
+
+Member 4: Sun Chu Rui
+
+Member 5: Ng Tsz Hin
+
+Member 6: Sun Xiao
+
+Member 7: Shek Pui Ka Hannah
 
 ## Table of Contents
 - [Introduction](#introduction)
