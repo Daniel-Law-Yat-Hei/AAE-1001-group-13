@@ -42,15 +42,19 @@ For flight path planning, we first set up the obstacle map, the start and the en
 ![image](https://github.com/user-attachments/assets/0dd8d4e5-f3ae-4d12-8d2f-c2972369b83b)
 
 Then, we set up the cost intensive area (fuel intensive, time intensive).
+
 ![image](https://github.com/user-attachments/assets/2a4df736-a152-4665-a5c3-696d0bb00a67)
 
 After that, we set the cost value of the area.
+
 ![image](https://github.com/user-attachments/assets/e3b2a15e-837a-48a9-b701-fd49a64d4076)
 
 Finally, the route can be found.
+
 ![image](https://github.com/user-attachments/assets/8620336f-fcfa-448d-b81c-48411efa0b2f)
 
 Then, by calculation, we can find the aircraft type most suitable for the route for different simulation.
+
 ![image](https://github.com/user-attachments/assets/0d8e738d-5888-41d5-8a1a-da74d1f5aeee)
 
 
