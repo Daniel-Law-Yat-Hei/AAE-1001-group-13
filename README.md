@@ -62,7 +62,27 @@ Then, by calculation, we can find the aircraft type most suitable for the route 
 ### Task 2
 **Goal:** Design a new cost area that can reduce the cost of the route by leveraging jet streams.
 
-**Methodology:** Introduce a jet stream area to reduce flight time and fuel consumption, achieving significant cost savings.
+**Methodology:** Introduce a jet stream area to reduce flight time and fuel consumption, achieving significant cost savings. When aircraft is flying along jet stream, the resultant drag exerted on the aircraft by air is smaller. Thus the efficiency of the engine will increase and have a lower cost to travel the same distance.
+
+First, the area of the jet stream is set.
+
+![image](https://github.com/user-attachments/assets/e4580f58-c4df-4eb0-ac22-1c28ed455f73)
+
+Then, the cost modifier of the jet stream area is set.
+
+![image](https://github.com/user-attachments/assets/dd46a5f8-3295-44c1-b2ea-12108462a1e1)
+![image](https://github.com/user-attachments/assets/5a804a94-d9b1-4841-86a1-67470c94f562)
+
+Finally, the jet stream can be plotted and the new route can be found.
+
+![image](https://github.com/user-attachments/assets/e78cf1ee-0e19-4668-aebf-273ef2970091)
+
+This is the cost, and the previous cost
+
+![image](https://github.com/user-attachments/assets/838244b4-d6da-4b5b-bb4f-9f22c9ac8dd4)
+![image](https://github.com/user-attachments/assets/3a7baa41-b4dc-42d5-ae90-a6022ab16e45)
+
+
 
 ### Task 3
 **Name for our aircraft:** Genshin 01
