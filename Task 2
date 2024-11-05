@@ -51,7 +51,7 @@ class AStarPlanner:
 
         self.Delta_C1 = 1.15 # cost intensive area 1 modifier
         self.Delta_C2 = 1.30 # cost intensive area 2 modifier
-        self.Delta_C3 = 0.05 # cost intensive area 2 modifier
+        self.Delta_C3 = 0.05 # jet stream area modifier
 
         self.costPerGrid = 1 
 
@@ -147,7 +147,7 @@ class AStarPlanner:
                         node.cost = node.cost + self.Delta_C2 * self.motion[i][2]
                     # print()
                     
-                # add more cost in cost intensive area 3
+                # add more cost in jet stream area
                 if self.calc_grid_position(node.x, self.min_x) in self.jc_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.jc_x:
                         # print("cost intensive area!!")
@@ -363,7 +363,7 @@ def main():
             fc_x.append(i)
             fc_y.append(j)
 
-    # set cost intesive area 3
+    # set jet stream area
     jc_x, jc_y = [], []
     for i in range(-10, 60):
         for j in range(0, 5):
