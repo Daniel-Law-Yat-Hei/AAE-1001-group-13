@@ -1,1 +1,110 @@
+import matplotlib.pyplot as plt
+import numpy as np
 
+def display_cost_comparison():
+    passengers_total = 3000
+    max_flights = 12
+    fuel_cost_per_kg = 0.76
+    flight_time = 120  # in minutes
+
+    best_design = {}
+    min_total_cost = float('inf')
+
+    for capacity in range(100, 451, 50):
+        num_flights = -(-passengers_total // capacity)
+
+        if num_flights > max_flights:
+            continue
+
+        if capacity >= 300:
+            num_engines = 4
+            fixed_cost = 2500
+        else:
+            num_engines = 2
+            fixed_cost = 2000
+
+        time_cost = 12 + ((capacity - 100) // 50) * 2
+
+        fuel_rate = num_engines * 20
+
+        trip_fuel_cost = fuel_cost_per_kg * fuel_rate * flight_time
+        trip_time_cost = time_cost * flight_time
+        trip_total_cost = trip_fuel_cost + trip_time_cost + fixed_cost
+
+        total_cost = trip_total_cost * num_flights
+
+        if total_cost < min_total_cost:
+            min_total_cost = total_cost
+            best_design = {
+                'capacity': capacity,
+                'num_engines': num_engines,
+                'fuel_rate': fuel_rate,
+                'time_cost': time_cost,
+                'fixed_cost': fixed_cost,
+                'num_flights': num_flights,
+                'trip_cost': trip_total_cost,
+                'total_cost': total_cost
+            }
+
+    print('\n=== Optimal Aircraft Design ===')
+    print(f'Passenger Capacity: {best_design["capacity"]}')
+    print(f'Number of Engines: {best_design["num_engines"]}')
+    print(f'Fuel Consumption Rate: {best_design["fuel_rate"]} kg/min')
+    print(f'Time Cost: ${best_design["time_cost"]}/min')
+    print(f'Fixed Cost: ${best_design["fixed_cost"]}')
+    print(f'Required Flights: {best_design["num_flights"]}')
+    print(f'Cost per Trip: ${best_design["trip_cost"]:.2f}')
+    print(f'Total Operating Cost: ${best_design["total_cost"]:.2f}')
+
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 12))
+
+    capacities = np.arange(100, 451, 50)
+    total_costs = []
+
+    for cap in capacities:
+        num_flights = -(-passengers_total // cap)
+        if num_flights > max_flights:
+            total_costs.append(np.nan)  
+            continue
+
+        if cap >= 300:
+            eng = 4
+            fix_cost = 2500
+        else:
+            eng = 2
+            fix_cost = 2000
+
+        time_c = 12 + ((cap - 100) // 50) * 2
+        fuel_r = eng * 20
+        trip_c = (0.76 * fuel_r * 120 + time_c * 120 + fix_cost)
+        total_costs.append(trip_c * num_flights)
+
+    bars = ax2.bar(capacities, total_costs, width=30, color='skyblue')
+
+    ax2.set_xlabel('Passenger Capacity', fontsize=12)
+    ax2.set_ylabel('Total Cost ($)', fontsize=12)
+    ax2.set_title('Total Cost Comparison for Different Capacities', fontsize=14)
+    ax2.grid(True, linestyle='--', alpha=0.7)
+
+    for bar in bars:
+        height = bar.get_height()
+        if not np.isnan(height):
+            ax2.text(bar.get_x() + bar.get_width()/2., height,
+                     f'${height:,.0f}',
+                     ha='center', va='bottom')
+
+    fuel_cost = best_design['fuel_rate'] * flight_time * fuel_cost_per_kg * best_design['num_flights']
+    time_cost = best_design['time_cost'] * flight_time * best_design['num_flights']
+    fixed_cost = best_design['fixed_cost'] * best_design['num_flights']
+
+    costs = [fuel_cost, time_cost, fixed_cost]
+    labels = ['Fuel Cost', 'Time Cost', 'Fixed Cost']
+    colors = ['#ff9999', '#66b3ff', '#99ff99']
+
+    ax1.pie(costs, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
+    ax1.set_title('Cost Composition Analysis', fontsize=14)
+
+    plt.tight_layout()
+    plt.show()
+
+display_cost_comparison()
