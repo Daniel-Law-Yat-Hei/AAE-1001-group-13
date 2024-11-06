@@ -85,11 +85,11 @@ This is the cost, and the previous cost
 
 
 ### Task 3
-**Name for our aircraft:** Genshin 01
+**Name for our aircraft:** 
 
 **Specifications:**
-- Passenger capacity: 250-450
-- Engine count: 2-4
+- Passenger capacity: 
+- Engine count: 
 
 **Detailed Calculation:** Calculate operational costs for different passenger capacities to determine the most cost-effective configuration.
 
