@@ -94,7 +94,15 @@ This is the cost, and the previous cost
 **Detailed Calculation:** Calculate operational costs for different passenger capacities to determine the most cost-effective configuration.
 
 ## Reflections
-Reflect on the project outcomes, challenges faced, and lessons learned.
+
+Group Leader, Daniel Law Yat Hei
+As a gruop leader, I find myself trapped within the burden of leading the team, dealing with unfamiliar task and the immense workload of other subjects
+It is undoubtedly impossible for me to finish the project alone. However, thanks to my groupmates, we're able to complete the task we're assigned.
+It may not be perfect, but this is indeed the hard work of the team. Other than trying to program with python for the fisrt time, I've learned that one can only walk so far without a team.
+Also, I've benefit immensely from taking the leading role. I've understood the importance of time management. Since the presentation day 
+is close to another midterm test, starting to work on the project early becomes critical to finishing the task in time.
+Another thing is that benig a leader is not just assigning task to teamates, but also get down to the field and help them out,
+while keeping an eye on the overview of the progress and keep track of it.
 
 ## Contacts
 For more information, please contact the project leader or any of the team members.
