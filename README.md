@@ -116,7 +116,7 @@ while keeping an eye on the overview of the progress and keep track of it.
 
 Group member, Zhou Jian Hong
 
-This was my first time to learn programming. I was very confused at the beginning, but through constant exploration in the sample examples and the explanations from the team leader and team members, I gained a preliminary understanding of programming and participated in the project. This also made me realize the importance of teamwork. With the advice of teachers and professors, I was able to do a better job in the project, which also aroused my interest in programming and benefited me a lot.
+This was my first time to learn programming. I was very confused at the beginning, but through constant exploration in the sample examples and the explanations from the team leader and team members, I gained a preliminary understanding of programming and participated in the project. This also made me realize the importance of teamwork. With the advice of teaching assistant and professor, I was able to do a better job in the project, which also aroused my interest in programming and benefited me a lot.
 
 ## Contacts
 For more information, please contact the project leader or any of the team members.
