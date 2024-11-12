@@ -89,7 +89,13 @@ class AStarPlanner:
 
         open_set, closed_set = dict(), dict() # open_set: node not been tranversed yet. closed_set: node have been tranversed already
         open_set[self.calc_grid_index(start_node)] = start_node # node index is the grid index
-
+        #things for trip cost calc fageghbsad
+        fcost=[0.76, 0.88, 0.95]
+        tcost21=[15, 20, 10]
+        tcost30=[21, 27, 15]
+        tcost50=[27, 34, 20]
+        pinfo=[["A321neo", tcost21, 54, 200, 1800], ["A330-900neo", tcost30, 84, 300, 2000], ["A350-900", tcost50, 90, 350, 2500]]
+        pnum = [3000, 1250, 2500]
         while 1:
             if len(open_set) == 0:
                 print("Open set is empty..")
@@ -118,6 +124,19 @@ class AStarPlanner:
                 print("Total Trip time required -> ",current.cost )
                 goal_node.parent_index = current.parent_index
                 goal_node.cost = current.cost
+                for i in range(3):
+                    chpcost=99999999999
+                    ans=["a", 0]
+                    print("Scenario ", 1+i)
+                    for j in range(3):
+                        trpno=math.ceil(pnum[i]/pinfo[j][3])
+                        trpcost=(fcost[i]*pinfo[j][2]*current.cost+pinfo[j][1][i]*current.cost+pinfo[j][4])*trpno
+                        print(pinfo[j][0], trpcost)
+                        if trpcost<chpcost:
+                            ans=[pinfo[j][0], trpno]
+                            chpcost=trpcost
+                        
+                    print("answer for scenario", i+1, "is", ans[1], "flights of", ans[0], "!")
                 break
 
             # Remove the item from the open set
@@ -413,4 +432,3 @@ if __name__ == '__main__':
 #A321neo flight no. > 2500/200 = 13       A330-900neo flight no. > 2500/300 = 9     A350-900 flight no. > 2500/350 = 8
 #A321neo cost = (0.95*54*81.2 + 10*81.2 + 1800)*13 = 88108.28   A330-900neo cost = (0.95*84*81.2 + 15*81.2 + 2000)*9 = 87279.84   A350-900 cost = (0.95*90*81.2 + 20*81.2 + 2500)*8 = 88532.8
 #A330-900neo for scenario 3
-
