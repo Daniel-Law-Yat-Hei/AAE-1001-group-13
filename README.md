@@ -118,7 +118,12 @@ Group member, Zhou Jian Hong
 
 This was my first time to learn programming. I was very confused at the beginning, but through constant exploration in the sample examples and the explanations from the team leader and team members, I gained a preliminary understanding of programming and participated in the project. This also made me realize the importance of teamwork. With the advice of teaching assistant and professor, I was able to do a better job in the project, which also aroused my interest in programming and benefited me a lot.
 
+Group member, Zhang Dingzhe
+
+As a group member, I gained a lot from this project. Our group leader allocated all the tasks reasonably, and Churui and I were assigned task 3. Throughout the project, our leader checked our progress in time to ensure the whole group's progress. I really benefit from cooperating with Churui, who is very inspiring. Communication, never neglect and learning all the time are important for group projects.
+
 ## Contacts
 For more information, please contact the project leader or any of the team members.
 
 Group leader, Daniel Law Yat Hei 24075347@connect.polyu.hk
+Group member, Zhang Dingzhe 24111786d@connect.polyu.hk
