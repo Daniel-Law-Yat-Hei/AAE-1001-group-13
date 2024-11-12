@@ -96,6 +96,8 @@ This project provides a deep analysis of the operational costs associated with d
 ![屏幕截图 2024-11-12 133228](https://github.com/user-attachments/assets/85452614-de08-4e98-802a-77eca257b2cd)
 - Analyzes the composition of costs (fuel, time, fixed costs) using pie charts.
 ![屏幕截图 2024-11-12 133305](https://github.com/user-attachments/assets/740af5b4-fe36-45f8-a08c-6807b0dd96a7)
+- We can find minimum cost of the most suitable aircraft, and design both bar chart and pie chart.
+![屏幕截图 2024-11-12 134555](https://github.com/user-attachments/assets/052a08c5-7917-48ef-8269-43952528544c)
 
 
 **Detailed Calculation:** Calculate operational costs for different passenger capacities to determine the most cost-effective configuration.
