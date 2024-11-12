@@ -85,7 +85,10 @@ This is the cost, and the previous cost
 
 
 ### Task 3
-**Name for our aircraft:** 
+**Name for our aircraft:**
+
+This project provides a comprehensive analysis of the operational costs associated with different aircraft designs based on passenger capacity. It utilizes Python and Matplotlib to visualize the cost comparison and optimal design for an aircraft that can accommodate a total of 3,000 passengers across multiple flights.
+
 
 **Specifications:**
 - Passenger capacity: 
