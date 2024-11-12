@@ -110,3 +110,5 @@ while keeping an eye on the overview of the progress and keep track of it.
 
 ## Contacts
 For more information, please contact the project leader or any of the team members.
+
+Group leader, Daniel Law Yat Hei 24075347@connect.polyu.hk
