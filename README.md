@@ -98,12 +98,6 @@ This project provides a deep analysis of the operational costs associated with d
 ![屏幕截图 2024-11-12 133305](https://github.com/user-attachments/assets/740af5b4-fe36-45f8-a08c-6807b0dd96a7)
 
 
-
-
-
-- Passenger capacity: 
-- Engine count: 
-
 **Detailed Calculation:** Calculate operational costs for different passenger capacities to determine the most cost-effective configuration.
 
 ## Reflections
