@@ -126,22 +126,22 @@ From the start node, go towards the direction of the goal node, when encountered
 **Approach:** 
 For an effective comparison, all 3 algorithms should use the same map.
 The design of the map is as follow:
-![Screenshot 2024-11-15 174209](https://github.com/user-attachments/assets/0b44cee4-f990-448d-947d-1ba1078931b9)
+![Screenshot 2024-11-15 191357](https://github.com/user-attachments/assets/dda65f2a-85e7-4cfe-966f-596f87bf954a)
 
 **Path from Algorithms:**
 The path obtained from the algorithms are as follow:
 
 A*:
 
-![Screenshot 2024-11-15 173947](https://github.com/user-attachments/assets/62a28879-c7b3-403d-b11a-0236d6cfb34b)
+![ASTAR](https://github.com/user-attachments/assets/d263e6dc-57f4-4ee5-a6d8-599d21570b55)
 
 Dijkstra:
 
-![Screenshot 2024-11-15 174015](https://github.com/user-attachments/assets/bbc71e2c-6b59-4ed1-89d3-3175e6b7386b)
+![DIJKSTRA](https://github.com/user-attachments/assets/33dbe4dc-3c7c-4f2c-8fdc-68e363e1c2ba)
 
 Greedy Best First Search:
 
-![Screenshot 2024-11-15 173921](https://github.com/user-attachments/assets/e8d2cfc9-1c14-4e14-b63d-5645505cd0a5)
+![GBFS](https://github.com/user-attachments/assets/cd83c455-737e-4dc6-a9d1-59fc9a6f2f06)
 
 **Comparison:**
 
