@@ -106,8 +106,9 @@ This project provides a deep analysis of the operational costs associated with d
 
 ## Additional Tasks
 
-###Additional Task 3
-**Objective:** 
+### Additional Task 3
+
+**Objective:**
 Compare Dijkstra Path Planning, A* Path Planning and Greedy Best First Search path planning algorithm.
 
 **Details:** 
@@ -147,9 +148,11 @@ Greedy Best First Search:
 
 After analyzing the path results, a comparison is made.
 
-Algorithms | A* | Dijkstra | Greedy Best First Search
-Search Speed | Moderate | Slow | Fast
-Shortest path | Yes | Yes | No
+| Algorithms | Search Speed | Shortest Path |
+| --- | --- | --- |
+| A* | Moderate | Yes |
+| Dijkstra| Slow | Yes |
+| Greedy Best First Search | Fast | No |
 
 By analyzing the algorithms, some potential advantages of the three algorithms are found.
 
