@@ -102,6 +102,82 @@ This project provides a deep analysis of the operational costs associated with d
 
 **Detailed Calculation:** Calculate operational costs for different passenger capacities to determine the most cost-effective configuration.
 
+
+
+## Additional Tasks
+
+###Additional Task 3
+**Objective:** 
+Compare Dijkstra Path Planning, A* Path Planning and Greedy Best First Search path planning algorithm.
+
+**Details:** 
+Before starting, it is important to understand the mechanism of the three algorithms
+
+A*:
+Searches the map starting from the start node, prioritizing nodes in the direction towards goal node from the node at that instant, backtracks when encountered an obstacle and start searching for the next closest node.
+
+Dijkstra:
+Similar to A*, however, it does not prioritize on searching the nodes closer to the goal node, instead it progressively searches the whole map until it reaches the goal node.
+Dijkstra can be described as a more "blind" version of A*.
+
+Greedy Best first Search:
+From the start node, go towards the direction of the goal node, when encountered an obstacle, start a Dijkstra's search until it can go around the obstacle, then repeat.
+
+**Approach:** 
+For an effective comparison, all 3 algorithms should use the same map.
+The design of the map is as follow:
+![Screenshot 2024-11-15 174209](https://github.com/user-attachments/assets/0b44cee4-f990-448d-947d-1ba1078931b9)
+
+**Path from Algorithms:**
+The path obtained from the algorithms are as follow:
+
+A*:
+
+![Screenshot 2024-11-15 173947](https://github.com/user-attachments/assets/62a28879-c7b3-403d-b11a-0236d6cfb34b)
+
+Dijkstra:
+
+![Screenshot 2024-11-15 174015](https://github.com/user-attachments/assets/bbc71e2c-6b59-4ed1-89d3-3175e6b7386b)
+
+Greedy Best First Search:
+
+![Screenshot 2024-11-15 173921](https://github.com/user-attachments/assets/e8d2cfc9-1c14-4e14-b63d-5645505cd0a5)
+
+**Comparison:**
+
+After analyzing the path results, a comparison is made.
+
+Algorithms | A* | Dijkstra | Greedy Best First Search
+Search Speed | Moderate | Slow | Fast
+Shortest path | Yes | Yes | No
+
+By analyzing the algorithms, some potential advantages of the three algorithms are found.
+
+A*
+- generally a better, less process intensive version of Dijkstra
+- more efficient than Dijkstra in longer paths
+
+Dijkstra
+- does not rely on path cost
+- guaranteed to find the shortest path
+
+Greedy Best First Search
+- less process intensive
+- can find path in less time
+
+Here are some potential applications of the three algorithms.
+
+A*
+- finding optimal path in well-defined areas with lighter processing load
+
+Dijkstra
+- finding optimal path in poorly-defined areas with a higher processing load
+
+Greedy Best First Search
+- finding a path to goal in a short time with little processing load
+
+
+
 ## Reflections
 
 Group Leader, Daniel Law Yat Hei
