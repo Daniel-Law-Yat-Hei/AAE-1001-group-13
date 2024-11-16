@@ -201,9 +201,15 @@ Group member, Zhang Dingzhe
 
 As a group member, I gained a lot from this project. Our group leader allocated all the tasks reasonably, and Churui and I were assigned task 3. Throughout the project, our leader checked our progress in time to ensure the whole group's progress. I really benefit from cooperating with Churui, who is very inspiring. Communication, never neglect and learning all the time are important for group projects.
 
+Group member, Shek Pui Ka
+
+Besides the importance of working together as a team, through this project i have also learned the use of github and how it enables us to efficiently work together. Through this platform other groupmates can see each others' work progress and give reminders and help when needed, especially for Daniel, our group leader, who provided much needed assistance for me and my groupmates in the completion of this task. Working in this project also made me understand more about programming and path-finding algorithms.
+
 ## Contacts
 For more information, please contact the project leader or any of the team members.
 
 Group leader, Daniel Law Yat Hei 24075347@connect.polyu.hk
 
 Group member, Zhang Dingzhe 24111786d@connect.polyu.hk
+
+Group member, Shek Pui Ka 24081653d@connect.polyu.hk
