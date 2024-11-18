@@ -96,15 +96,63 @@ This project provides a deep analysis of the operational costs associated with d
 ![屏幕截图 2024-11-12 133228](https://github.com/user-attachments/assets/85452614-de08-4e98-802a-77eca257b2cd)
 - Analyzes the composition of costs (fuel, time, fixed costs) using pie charts.
 ![屏幕截图 2024-11-12 133305](https://github.com/user-attachments/assets/740af5b4-fe36-45f8-a08c-6807b0dd96a7)
-- We can find minimum cost of the most suitable aircraft, and design both bar chart and pie chart.
+- We can find minimum cost of the most suitable aircraft, and design 
+both bar chart and pie chart.
 ![屏幕截图 2024-11-12 134555](https://github.com/user-attachments/assets/052a08c5-7917-48ef-8269-43952528544c)
 
 
 **Detailed Calculation:** Calculate operational costs for different passenger capacities to determine the most cost-effective configuration.
 
 
-
 ## Additional Tasks
+additional task 2
+
+
+![1001 assignment](https://github.com/user-attachments/assets/581c2086-d796-4e97-8af6-2963090ac565)
+
+Objective:​
+
+ 1.add a fuel consuming area and generate it  randomly​
+
+2. generate the obstacles randomly with reasonable density​
+
+3. find the way to the destination​
+
+first visualizes the current node and the fuel-consuming area during the search.​ 
+![296f61878b0e219fe1214ead2f8666f](https://github.com/user-attachments/assets/387394e9-162d-4411-a90f-0dab60dfc301)
+
+then Adds extra cost if the node is within the fuel-consuming area.
+![8dff99773a4c2c13cf09455eff531e6](https://github.com/user-attachments/assets/1aeb4e3e-cbfd-4702-9630-2a13f5d56600)
+
+Reconstructs the path from the goal node back to the start node using the parent indices 
+![微信截图_20241119023120](https://github.com/user-attachments/assets/0c145256-8cf2-46df-ac8a-774c08dcf73f)
+
+Computes the heuristic cost (Euclidean distance) between two nodes.
+![ab2deb9f85151d16ce5e3773aaabd6b](https://github.com/user-attachments/assets/24dbb72e-a374-4559-b8ac-b197c369305c)
+
+Checks if the node is within bounds and not in an obstacle.
+![1b29831be45031f847e06257132cb72](https://github.com/user-attachments/assets/88c106fb-61fa-4112-912c-d15f5813396f)
+
+Generate random obstacles with reasonable density ​Generate a random fuel-consuming area（40*40）
+![89226b77d5c66e13f9e9fa01f47d562](https://github.com/user-attachments/assets/690d5a43-9804-4d89-9625-ef95f4e1a8b7)
+
+
+Calculate the final path
+
+
+![49dd9a235ee781a5704b5895b54fbb3](https://github.com/user-attachments/assets/0019edfa-780d-4a22-8dfa-bdcddf1a6b68)
+
+
+Reflection on AI-Assisted Programming
+As a programmer, I've found AI-assisted programming to be a transformative tool that enhances both productivity and creativity. The ability to quickly generate code snippets, troubleshoot errors, or even brainstorm solutions has significantly streamlined my workflow.
+
+One of the most striking advantages is the speed at which AI can provide suggestions. Whether I'm working on a complex algorithm or a simple function, the AI can offer relevant code examples and documentation, reducing the time spent searching for solutions. This allows me to focus more on the logic and design of my projects rather than getting bogged down by syntax or minor details.
+
+Moreover, AI tools can help bridge knowledge gaps. For instance, when exploring a new programming language or framework, having an AI assistant can accelerate the learning curve. It offers explanations and examples, making it easier to grasp concepts that might otherwise be challenging.
+
+However, while AI can greatly assist in coding tasks, I’ve realized that it’s essential to maintain a balance. Relying too heavily on AI can lead to a lack of deep understanding of the underlying principles. It's important to use AI as a supplement to my skills rather than a substitute. Engaging critically with the suggestions provided by AI ensures that I continue to grow as a developer.
+
+In conclusion, AI-assisted programming has become an invaluable part of my development process. It empowers me to code more efficiently, learn faster, and ultimately create better software. As AI technology continues to evolve, I look forward to seeing how it can further enhance our capabilities as programmers.
 
 ### Additional Task 3
 
