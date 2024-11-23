@@ -91,7 +91,8 @@ This project provides a deep analysis of the operational costs associated with d
 
 **Specifications:**
 - Calculates the optimal aircraft design based on various parameters such as passenger capacity, number of engines, and associated costs.
-![image](https://github.com/user-attachments/assets/af929a02-0309-4a4c-92b2-00d8f6ec246a)
+![image](https://github.com/user-attachments/assets/8b0dff25-9d2b-48e5-92dd-5b1d7fd2f77c)
+![image](https://github.com/user-attachments/assets/5f2b8ca6-f714-4197-9e98-32964f49fc02)
 - Visualizes the total operating costs for different aircraft capacities using bar charts.
 ![image](https://github.com/user-attachments/assets/2ba07743-4217-4eb8-9689-4a7a3f1e8e02)
 - Analyzes the composition of costs (fuel, time, fixed costs) using pie charts.
@@ -99,13 +100,8 @@ This project provides a deep analysis of the operational costs associated with d
 - We can find minimum cost of the most suitable aircraft, and design 
 both bar chart and pie chart.
 ![image](https://github.com/user-attachments/assets/2c159f00-c9bd-4682-a5e7-116255ee579f)
-
-
-**Detailed Calculation:** Calculate operational costs for different passenger capacities to determine the most cost-effective configuration.
-![image](https://github.com/user-attachments/assets/8b0dff25-9d2b-48e5-92dd-5b1d7fd2f77c)
-![image](https://github.com/user-attachments/assets/5f2b8ca6-f714-4197-9e98-32964f49fc02)
-
-
+-Finally, print the outcome.
+![image](https://github.com/user-attachments/assets/af929a02-0309-4a4c-92b2-00d8f6ec246a)
 
 
 ## Additional Tasks
