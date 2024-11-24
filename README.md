@@ -253,6 +253,10 @@ Group member, Shek Pui Ka
 
 Besides the importance of working together as a team, through this project i have also learned the use of github and how it enables us to efficiently work together. Through this platform other groupmates can see each others' work progress and give reminders and help when needed, especially for Daniel, our group leader, who provided much needed assistance for me and my groupmates in the completion of this task. Working in this project also made me understand more about programming and path-finding algorithms.
 
+Group member, Sun Churui
+
+
+
 ## Contacts
 For more information, please contact the project leader or any of the team members.
 
@@ -261,3 +265,5 @@ Group leader, Daniel Law Yat Hei 24075347@connect.polyu.hk
 Group member, Zhang Dingzhe 24111786d@connect.polyu.hk
 
 Group member, Shek Pui Ka 24081653d@connect.polyu.hk
+
+Group member, Sun Churui 24110186d@connect.polyu.hk
