@@ -143,16 +143,7 @@ Calculate the final path
 ![49dd9a235ee781a5704b5895b54fbb3](https://github.com/user-attachments/assets/0019edfa-780d-4a22-8dfa-bdcddf1a6b68)
 
 
-Reflection on AI-Assisted Programming
-As a programmer, I've found AI-assisted programming to be a transformative tool that enhances both productivity and creativity. The ability to quickly generate code snippets, troubleshoot errors, or even brainstorm solutions has significantly streamlined my workflow.
 
-One of the most striking advantages is the speed at which AI can provide suggestions. Whether I'm working on a complex algorithm or a simple function, the AI can offer relevant code examples and documentation, reducing the time spent searching for solutions. This allows me to focus more on the logic and design of my projects rather than getting bogged down by syntax or minor details.
-
-Moreover, AI tools can help bridge knowledge gaps. For instance, when exploring a new programming language or framework, having an AI assistant can accelerate the learning curve. It offers explanations and examples, making it easier to grasp concepts that might otherwise be challenging.
-
-However, while AI can greatly assist in coding tasks, I’ve realized that it’s essential to maintain a balance. Relying too heavily on AI can lead to a lack of deep understanding of the underlying principles. It's important to use AI as a supplement to my skills rather than a substitute. Engaging critically with the suggestions provided by AI ensures that I continue to grow as a developer.
-
-In conclusion, AI-assisted programming has become an invaluable part of my development process. It empowers me to code more efficiently, learn faster, and ultimately create better software. As AI technology continues to evolve, I look forward to seeing how it can further enhance our capabilities as programmers.
 
 ### Additional Task 3
 
@@ -256,6 +247,11 @@ Besides the importance of working together as a team, through this project i hav
 Group member, Sun Churui
 
 I gained valuable programming learning experience by completing Task 3 with A. My main task is to analyze the requirements of the project and write the code to meet the relevant requirements of the topic. In this task, I find the most suitable aircraft design scheme by writing the code, and finally I successfully find the most suitable design scheme through continuous learning and modification. During the collaboration, Zhang Dingzhe helps me a lot about how to write the clean and efficient code.  His insights and support helped me overcome confusion. Our group leader also provided timely guidance, ensuring we stayed on track. This project deepened my understanding of programming and introduced me to using Python. Overall, this experience has sparked my interest in programming and equipped me with essential skills for future projects.
+
+group member， Sun Xiao
+
+As a programmer, I've found AI-assisted programming to be a transformative tool that enhances both productivity and creativity. The ability to quickly generate code snippets, troubleshoot errors, or even brainstorm solutions has significantly streamlined my workflow.One of the most striking advantages is the speed at which AI can provide suggestions. Whether I'm working on a complex algorithm or a simple function, the AI can offer relevant code examples and documentation, reducing the time spent searching for solutions. This allows me to focus more on the logic and design of my projects rather than getting bogged down by syntax or minor details.Moreover, AI tools can help bridge knowledge gaps. For instance, when exploring a new programming language or framework, having an AI assistant can accelerate the learning curve. It offers explanations and examples, making it easier to grasp concepts that might otherwise be challenging.
+However, while AI can greatly assist in coding tasks, I’ve realized that it’s essential to maintain a balance. Relying too heavily on AI can lead to a lack of deep understanding of the underlying principles. It's important to use AI as a supplement to my skills rather than a substitute. Engaging critically with the suggestions provided by AI ensures that I continue to grow as a developer.In conclusion, AI-assisted programming has become an invaluable part of my development process. It empowers me to code more efficiently, learn faster, and ultimately create better software. As AI technology continues to evolve, I look forward to seeing how it can further enhance our capabilities as programmers.
 ## Contacts
 For more information, please contact the project leader or any of the team members.
 
@@ -266,3 +262,5 @@ Group member, Zhang Dingzhe 24111786d@connect.polyu.hk
 Group member, Shek Pui Ka 24081653d@connect.polyu.hk
 
 Group member, Sun Churui 24110186d@connect.polyu.hk
+
+Group member， Sun Xiao 24129864d@connect.polyu.hk
