@@ -255,8 +255,7 @@ Besides the importance of working together as a team, through this project i hav
 
 Group member, Sun Churui
 
-
-
+I gained valuable programming learning experience by completing Task 3 with A. My main task is to analyze the requirements of the project and write the code to meet the relevant requirements of the topic. In this task, I find the most suitable aircraft design scheme by writing the code, and finally I successfully find the most suitable design scheme through continuous learning and modification. During the collaboration, Zhang Dingzhe helps me a lot about how to write the clean and efficient code.  His insights and support helped me overcome confusion. Our group leader also provided timely guidance, ensuring we stayed on track. This project deepened my understanding of programming and introduced me to using Python. Overall, this experience has sparked my interest in programming and equipped me with essential skills for future projects.
 ## Contacts
 For more information, please contact the project leader or any of the team members.
 
