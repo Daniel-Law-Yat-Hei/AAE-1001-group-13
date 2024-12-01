@@ -275,6 +275,11 @@ group member， Sun Xiao
 
 As a programmer, I've found AI-assisted programming to be a transformative tool that enhances both productivity and creativity. The ability to quickly generate code snippets, troubleshoot errors, or even brainstorm solutions has significantly streamlined my workflow.One of the most striking advantages is the speed at which AI can provide suggestions. Whether I'm working on a complex algorithm or a simple function, the AI can offer relevant code examples and documentation, reducing the time spent searching for solutions. This allows me to focus more on the logic and design of my projects rather than getting bogged down by syntax or minor details.Moreover, AI tools can help bridge knowledge gaps. For instance, when exploring a new programming language or framework, having an AI assistant can accelerate the learning curve. It offers explanations and examples, making it easier to grasp concepts that might otherwise be challenging.
 However, while AI can greatly assist in coding tasks, I’ve realized that it’s essential to maintain a balance. Relying too heavily on AI can lead to a lack of deep understanding of the underlying principles. It's important to use AI as a supplement to my skills rather than a substitute. Engaging critically with the suggestions provided by AI ensures that I continue to grow as a developer.In conclusion, AI-assisted programming has become an invaluable part of my development process. It empowers me to code more efficiently, learn faster, and ultimately create better software. As AI technology continues to evolve, I look forward to seeing how it can further enhance our capabilities as programmers.
+
+Group member, Ng Tsz Hin
+
+This pathfinding projectof using Python through the A* algorithm has been an eye-opening experience. Coming from a background in HTML and JavaScript, Python presented new challenges, though my previous programming knowledge provided a helpful foundation. Implementing the A* algorithm as my first Python project was challenging but I have learnt a new methods from this project. Understanding pathfinding concepts and translating them into functional code pushed me to grow as a programmer. The project's complexity initially seemed overwhelming, but breaking it down into smaller components made it manageable.Working in a group enhanced the learning experience significantly. Collaborating with teammates exposed me to different problem-solving approaches and helped improve my code through valuable feedback. I'm excited to have worked on something as cutting-edge as pathfinding algorithms. However, my time management could have been better. This experience has taught me the importance of setting realistic timelines and milestones for future projects, especially when learning new technologies.
+
 ## Contacts
 For more information, please contact the project leader or any of the team members.
 
@@ -289,3 +294,5 @@ Group member, Sun Churui 24110186d@connect.polyu.hk
 Group member， Sun Xiao 24129864d@connect.polyu.hk
 
 Group member, Zhou Jian Hong 24074295d@connect.polyu.hk
+
+Group member, Ng Tsz Hin 24088735d@connect.polyu.hk
