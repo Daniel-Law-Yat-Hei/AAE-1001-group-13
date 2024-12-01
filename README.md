@@ -23,6 +23,7 @@ Member 7: Shek Pui Ka Hannah
   - [Task 1](#task-1)
   - [Task 2](#task-2)
   - [Task 3](#task-3)
+  - [Additional Task 1](#task-A1)
 - [Reflections](#reflections)
 - [Contacts](#contacts)
 
@@ -105,7 +106,14 @@ both bar chart and pie chart.
 
 
 ## Additional Tasks
-Additional task 1
+
+### Additional Task 1
+
+**Objective**
+
+Assume the aircraft is a supply craft that must reach 2drop-off points to drop supplies before heading to base.
+1.Add one checkpoint for each cost intensive area (2 in total)
+2.Reach all checkpoints before arriving at the destination
 
 
 additional task 2
