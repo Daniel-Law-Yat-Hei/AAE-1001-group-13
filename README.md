@@ -114,13 +114,17 @@ both bar chart and pie chart.
 2.Reach all checkpoints before arriving at the destination
 
 First,define checkpoints inside cost-intensive areas.
+
 <img width="625" alt="define checkpoint" src="https://github.com/user-attachments/assets/8f7e78f7-ab2d-4647-b0f7-9e4130483113">
 
 Then,plan the path.
+
 <img width="723" alt="plan the path" src="https://github.com/user-attachments/assets/8014d26b-cba2-474d-ad0c-e73621e4431b">
 
 Finaaly, plot the path and the check point.
+
 <img width="394" alt="plot the checkpoint" src="https://github.com/user-attachments/assets/3f9df42e-9011-48db-8675-13e850e490c3">
+
 <img width="326" alt="showing the path" src="https://github.com/user-attachments/assets/24726693-3305-4a44-85fd-2de8582b3197">
 
 
