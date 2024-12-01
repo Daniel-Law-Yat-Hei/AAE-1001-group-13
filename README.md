@@ -128,6 +128,9 @@ Finaaly, plot the path and the check point.
 <img width="326" alt="showing the path" src="https://github.com/user-attachments/assets/24726693-3305-4a44-85fd-2de8582b3197">
 
 
+<img width="636" alt="Screenshot 2024-12-01 at 7 52 07 PM" src="https://github.com/user-attachments/assets/2307525e-d436-48a5-9a34-6023ab34e43f">
+
+
 additional task 2
 
 
