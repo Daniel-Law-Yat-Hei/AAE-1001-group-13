@@ -105,6 +105,9 @@ both bar chart and pie chart.
 
 
 ## Additional Tasks
+Additional task 1
+
+
 additional task 2
 
 
